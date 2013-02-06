@@ -6,8 +6,8 @@
 // secondary accordion menu with options - add accordion class to parent container for this to kick  in
 var accordionSlider = (function () {
 
-    var $childNav = $('.navigation.accordion ul li ul'),
-        $navHeader = $('.navigation.accordion').find('ul:first > li'),
+    var $childNav = $('.accordion ul li ul'),
+        $navHeader = $('.accordion').find('ul:first > li'),
         $navLinks = $navHeader.filter('a'),
         $nestedChildren = $navHeader.children('ul'),
         defaults = {
